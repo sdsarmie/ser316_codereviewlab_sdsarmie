@@ -11,14 +11,14 @@ public abstract class Account implements java.io.Serializable {
     protected String name;
     private State state;
 
-    protected Account(String n) {
-        name = n;
+    protected Account(String name) {
+        this.name = name;
         state = State.OPEN;
     }
 
-    protected Account(String n, float b) {
-        this(n); 
-        balance = b;
+    protected Account(String name, float balance) {
+        this(name); 
+        this.balance = balance;
     }
 
     /**
