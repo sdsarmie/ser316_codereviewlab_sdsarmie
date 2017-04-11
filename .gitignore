@@ -1,0 +1,6 @@
+/classes/
+/build/
+accounts.ser
+.DS_Store
+.classpath
+/.settings/
